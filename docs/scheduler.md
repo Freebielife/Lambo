@@ -13,4 +13,8 @@ Object.freeze({id: 'lambo', owner: 'Freebielife', repo: 'Lambo',
 
 Сохранить все остальные записи рабочего реестра. GitHub-токен Worker должен иметь доступ к Freebielife/Lambo и Actions: write. Секреты в репозиторий не добавлять.
 
-Рабочий реестр Cloudflare в этой сессии недоступен; эта запись только подготовлена. Подключение Cloudflare и плановый запуск не подтверждены. Резервное расписание GitHub не является доказательством работы Cloudflare.
+LAMBO добавлен в действующий исходный реестр `Freebielife/Ludoman/cloudflare/observatory-runner/src/projects.mjs`, коммит `64ce404cca829b6eaad367de601598495c07fce4`. Остальные проекты сохранены; 17 тестов планировщика проходят.
+
+Первый запуск GitHub Actions после сохранения исходников успешно собрал и опубликовал снимок: https://github.com/Freebielife/Lambo/actions/runs/45266026055 . Это был push-запуск, не плановый workflow_dispatch.
+
+Развёртывание Cloudflare, доступ его токена к Lambo и плановый запуск ещё не подтверждены. Резервное расписание GitHub не является доказательством работы Cloudflare.
