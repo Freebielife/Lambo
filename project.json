@@ -1,0 +1,107 @@
+{
+  "slug": "lambo",
+  "name": "LAMBO",
+  "symbol": "LAMBO",
+  "master": "EQDE1iPrP80L17RzkH3YluXsEcn5i-bPFfue259uMKKFE3h0",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "Lambo"
+  },
+  "pools": [
+    {
+      "address": "EQCdN5DuncfVAnuwtoslL3YqV9WOLc5LINkArjuDf5kRZOJq",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQCdN5DuncfVAnuwtoslL3YqV9WOLc5LINkArjuDf5kRZOJq/events?limit=100"
+    },
+    {
+      "address": "EQC206Mhrgy_K2-ez_7TVF3FVtqLDwjZAO-wDHi5PwQ1vMLY",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQC206Mhrgy_K2-ez_7TVF3FVtqLDwjZAO-wDHi5PwQ1vMLY/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQCdN5DuncfVAnuwtoslL3YqV9WOLc5LINkArjuDf5kRZOJq",
+  "links": {
+    "telegram": "https://t.me/lambospeak",
+    "website": "https://lambo.tg",
+    "x": "https://x.com/LAMBOtokenTON"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit",
+    "0:0000000000000000000000000000000000000000000000000000000000000000": "Zero address"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795467339,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQDE1iPrP80L17RzkH3YluXsEcn5i-bPFfue259uMKKFE3h0",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQDE1iPrP80L17RzkH3YluXsEcn5i-bPFfue259uMKKFE3h0/pools?page=1"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "LAMBO — токен в сети TON. В метаданных указан слоган «Wen $LAMBO ?!». Канал проекта @lambospeak публикует тот же контракт и ссылается на чат @wen_lambo_ton и аккаунт X @LAMBOtokenTON. Конкретное назначение токена в метаданных не раскрыто.",
+    "origin": "reviewed_sources",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQDE1iPrP80L17RzkH3YluXsEcn5i-bPFfue259uMKKFE3h0",
+      "https://t.me/lambospeak",
+      "https://t.me/wen_lambo_ton",
+      "https://lambo.tg"
+    ],
+    "checked_at": "2026-11-23"
+  },
+  "flag_file": "web/project-flag.webp",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "token_metadata",
+  "logo_source": "https://raw.githubusercontent.com/vanyaindigo/lambo/3113b43ea760ee902c0cc70ed4830c03eec2520c/LAMBO_640x640.jpg",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:0000000000000000000000000000000000000000000000000000000000000000": {
+      "category": "burn_address",
+      "source": "Canonical all-zero basechain address: 0:0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "flag_source": "User-provided project emoji",
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQCdN5DuncfVAnuwtoslL3YqV9WOLc5LINkArjuDf5kRZOJq",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "token_metadata",
+      "source": "https://raw.githubusercontent.com/vanyaindigo/lambo/3113b43ea760ee902c0cc70ed4830c03eec2520c/LAMBO_640x640.jpg",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "User-provided project emoji",
+      "catalogueKey": null,
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/lambospeak"
+  },
+  "community_links": {
+    "telegram_chat": "https://t.me/wen_lambo_ton"
+  }
+}
